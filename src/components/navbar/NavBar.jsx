@@ -1,4 +1,5 @@
 // style
+import Logo from '../logo/Logo'
 import './NavBar.css'
 
 
@@ -9,6 +10,9 @@ const NavBar = () => {
 
     return (
         <nav className='navbar'>
+
+            <Logo />
+
             <ul className='navbar-nav'>
                 <li className='nav-item'>
                     <ScrollLink to='/home'>Home</ScrollLink>
