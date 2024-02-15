@@ -9,3 +9,7 @@
     --blue-gray: #42446E;
     --gray-shade: #666666;
 }
+
+ul {
+    list-style: none;
+}

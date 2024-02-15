@@ -1,6 +1,6 @@
 .logo {
     display: flex;
-    width: 110px;
+    min-width: 110px;
     height: 30px;
     border: 1px solid var(--blue-gray);
 }
