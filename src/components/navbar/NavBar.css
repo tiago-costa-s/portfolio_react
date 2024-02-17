@@ -29,6 +29,8 @@
 .nav-mobile {
     display: none;
     width: 100%;
+
+    background-color: rgb(228, 222, 222);
 }
 
 .nav-mobile ul {
@@ -40,3 +42,38 @@
     width: 100%;
     min-height: calc(100vh - 100px);
 }
+
+.open {
+    display: flex;
+}
+
+.burger-menu {
+    display: none;
+}
+
+/* General */
+@media(max-width: 992px) {
+    .nav-web {
+        display: none;
+    }
+
+    .navbar {}
+
+    .burger-menu {
+        display: flex;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+
+/* Mobile */
+@media(min-width: 481px) {}
+
+/* Extra small devices */
+@media(min-width: 481px) and (max-width: 767px) {}
+
+/* Small tablets */
+@media(min-width: 768px) and (max-width: 992px) {}
+
+/* Large tablets/laptops */
+@media(min-width: 993px) and (max-width: 1199px) {}

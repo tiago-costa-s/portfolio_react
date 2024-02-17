@@ -1,14 +1,25 @@
 // style
 import Logo from '../logo/Logo'
 import './NavBar.css'
-// 
+// react scroll
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'
+// react icon
+import { FiMenu } from "react-icons/fi";
+import { useState } from 'react';
+
+
 
 const NavBar = () => {
 
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    }
+
     return (
         <div className='navbar'>
-            <div className="container-navbar">
+            <div className='container-navbar'>
                 <Logo />
                 <nav className='nav-web'>
                     <ul>
@@ -79,8 +90,11 @@ const NavBar = () => {
                         </li>
                     </ul>
                 </nav>
+
+                <FiMenu className='burger-menu' onClick={toggleMenu} />
+
             </div>
-            <nav className='nav-mobile'>
+            <nav className={`nav-mobile ${isOpen ? 'open' : ''}`} >
                 <ul>
                     <li className='nav-item'>
                         <ScrollLink
@@ -149,7 +163,7 @@ const NavBar = () => {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </div >
     )
 
 }
