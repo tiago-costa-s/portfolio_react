@@ -10,12 +10,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.nav-web {
+    width: 600px;
+    padding: 0 1rem;
 }
 
 .nav-web ul {
     display: flex;
     justify-content: space-between;
-    width: 600px;
 }
 
 .link-menu {
@@ -29,7 +34,7 @@
 .nav-mobile {
     display: none;
     width: 100%;
-
+    min-height: calc(100vh - 60px);
     background-color: rgb(228, 222, 222);
 }
 
@@ -57,7 +62,9 @@
         display: none;
     }
 
-    .navbar {}
+    .container-navbar {
+        height: 60px;
+    }
 
     .burger-menu {
         display: flex;

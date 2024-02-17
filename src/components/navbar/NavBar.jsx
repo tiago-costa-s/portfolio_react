@@ -7,15 +7,13 @@ import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'
 import { FiMenu } from "react-icons/fi";
 import { useState } from 'react';
 
-
-
 const NavBar = () => {
 
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
-    }
+    };
 
     return (
         <div className='navbar'>
@@ -46,7 +44,7 @@ const NavBar = () => {
                                 duration={500}
                                 className='link-menu'
                             >
-                                sobre min
+                                sobre mim
                             </ScrollLink>
                         </li>
                         <li className='nav-item'>
@@ -119,7 +117,7 @@ const NavBar = () => {
                             duration={500}
                             className='link-menu'
                         >
-                            sobre min
+                            sobre mim
                         </ScrollLink>
                     </li>
                     <li className='nav-item'>
@@ -165,7 +163,6 @@ const NavBar = () => {
             </nav>
         </div >
     )
+};
 
-}
-
-export default NavBar
+export default NavBar;

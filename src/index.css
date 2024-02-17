@@ -10,6 +10,10 @@
     --gray-shade: #666666;
 }
 
+body {
+    background-color: #f5f5f5;
+}
+
 ul {
     list-style: none;
 }
