@@ -1,0 +1,16 @@
+.presentation .title {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: var(--blue-gray);
+}
+
+.presentation .title span {
+    display: block;
+}
+
+.presentation .title #name {
+    background: linear-gradient(to right, #13b0f5, #e70faa);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

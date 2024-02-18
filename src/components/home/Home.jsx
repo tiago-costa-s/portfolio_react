@@ -1,9 +1,13 @@
 import './Home.css';
+import Presentation from './presentation/Presentation';
+
 
 const Home = () => {
 
     return (
-        <div className='home'>Home</div>
+        <div className='home'>          
+            <Presentation />
+        </div>
     )
 
 };
