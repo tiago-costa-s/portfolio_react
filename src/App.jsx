@@ -1,7 +1,6 @@
-import './App.css'
-import Home from './components/home/Home'
-
-import NavBar from './components/navbar/NavBar'
+import './App.css';
+import Home from './components/home/Home';
+import NavBar from './components/navbar/NavBar';
 
 function App() {
 
@@ -15,4 +14,4 @@ function App() {
 
 }
 
-export default App
+export default App;
