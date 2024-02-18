@@ -70,7 +70,7 @@ const NavBar = () => {
                                 duration={500}
                                 className='link-menu'
                             >
-                                projeto
+                                projetos
                             </ScrollLink>
                         </li>
                         <li className='nav-item'>
@@ -143,7 +143,7 @@ const NavBar = () => {
                             duration={500}
                             className='link-menu'
                         >
-                            projeto
+                            projetos
                         </ScrollLink>
                     </li>
                     <li className='nav-item'>
