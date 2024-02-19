@@ -1,0 +1,25 @@
+.router-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    padding: 6px 2px;
+    border: 2px solid var(--blue-gray);
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--blue-gray);
+    transition: .7s;
+}
+
+.router-button .icon {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.router-button:hover {
+    color: #fff;
+    border: 0;
+    background-color: var(--blue-gray);
+}
