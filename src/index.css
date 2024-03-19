@@ -21,3 +21,9 @@ ul {
 .router-button {
     text-decoration: none;
 }
+
+.sub-title {
+    font-size: 2rem;
+    color: var(--gray-shade);
+    margin-bottom: 2.375rem;
+}
