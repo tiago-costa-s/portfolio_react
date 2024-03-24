@@ -1,0 +1,54 @@
+{
+    "academic": [
+        {
+            "id": "1",
+            "name": "Analise e Densolvimento de Sistemas",
+            "modality": "Presencial",
+            "institution": "Faculdade Una",
+            "city": "Belo Horizonte",
+            "startDate": "jan/2020",
+            "endDate": "jul/2022"
+        }
+    ],
+    "professional_experience": [
+        {
+            "id": "1",
+            "name": "Analista de Sistemas",
+            "modality": "Híbrido",
+            "institution": "ALS Tribology Brasil",
+            "city": "Contagem",
+            "startDate": "dez/2023",
+            "endDate": "atual"
+        },
+        {
+            "id": "2",
+            "name": "Desenvolvedor Front End",
+            "modality": "Voluntário",
+            "institution": "Pipoca Ágil",
+            "city": "Rio de Janeiro",
+            "startDate": "julh/2023",
+            "endDate": "nov/2023"
+        },
+        {
+            "id": "3",
+            "name": "Analista de Suporte (Estágio)",
+            "modality": "Home Office",
+            "institution": "CRM Educacional",
+            "city": "Belo Horizonte",
+            "startDate": "mar/2021",
+            "endDate": "mar/2022"
+        },
+        {
+            "id": "4",
+            "name": "Analista de Vendas",
+            "modality": "Presencial",
+            "institution": "Tambasa",
+            "city": "Contagem",
+            "startDate": "jun/2010",
+            "endDate": "mai/2021"
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}

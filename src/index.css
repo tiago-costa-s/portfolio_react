@@ -8,6 +8,8 @@
 :root {
     --blue-gray: #42446E;
     --gray-shade: #666666;
+    --lime-green: #018C0F;
+    --pale-green: #D7FFE0
 }
 
 body {
@@ -24,6 +26,6 @@ ul {
 
 .sub-title {
     font-size: 2rem;
-    color: var(--gray-shade);
+    color: var(--blue-gray);
     margin-bottom: 2.375rem;
 }
