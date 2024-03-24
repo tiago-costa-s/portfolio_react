@@ -1,9 +1,9 @@
 // react-icon
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 // components
 import RouterButton from '../../buttons/routerbutton/RouterButton';
-import './Presentation.css'
+import './Presentation.css';
 
 const Presentation = () => {
 
@@ -19,12 +19,12 @@ const Presentation = () => {
                         <span>Desenvolvedor</span>
                     </h1>
                 </div>
-                <div className="social-media">
+                <div className='social-media'>
                     <RouterButton text='Git Hub' icon={<FaGithub />} />
                     <RouterButton text='Linkedin' icon={<FaLinkedinIn />} />
                 </div>
             </div>
-            <img src="src/assets/perfil2.png" alt='tiago' />
+            <img src='src/assets/perfil2.png' alt='tiago' />
         </div>
     );
 

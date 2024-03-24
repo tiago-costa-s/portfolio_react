@@ -1,13 +1,12 @@
-import { useEffect, useState } from 'react';
 import styles from './DynamicDataLoader.module.css';
-import { SlLocationPin } from "react-icons/sl";
-import { HiOutlineBuildingOffice } from "react-icons/hi2";
-import { IoCalendarOutline } from "react-icons/io5";
+import { SlLocationPin } from 'react-icons/sl';
+import { HiOutlineBuildingOffice } from 'react-icons/hi2';
+import { IoCalendarOutline } from 'react-icons/io5';
 import { useFetch } from '../../../hooks/useFatch';
 
 const DynamicDataLoader = ({ title, newUrl }) => {
 
-    const url =  newUrl ;
+    const url = newUrl;
 
     const { data } = useFetch(url);
 

@@ -1,10 +1,10 @@
 // style
-import Logo from '../logo/Logo'
-import './NavBar.css'
+import Logo from '../logo/Logo';
+import './NavBar.css';
 // react scroll
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 // react icon
-import { FiMenu } from "react-icons/fi";
+import { FiMenu } from 'react-icons/fi';
 import { useState } from 'react';
 
 const NavBar = () => {
@@ -23,7 +23,7 @@ const NavBar = () => {
                     <ul>
                         <li className='nav-item'>
                             <ScrollLink
-                                activeClass="active"
+                                activeClass='active'
                                 to='home'
                                 spy={true}
                                 smooth={true}
@@ -36,7 +36,7 @@ const NavBar = () => {
                         </li>
                         <li className='nav-item'>
                             <ScrollLink
-                                activeClass="active"
+                                activeClass='active'
                                 to='about'
                                 spy={true}
                                 smooth={true}
@@ -49,7 +49,7 @@ const NavBar = () => {
                         </li>
                         <li className='nav-item'>
                             <ScrollLink
-                                activeClass="active"
+                                activeClass='active'
                                 to='stack'
                                 spy={true}
                                 smooth={true}
@@ -62,7 +62,7 @@ const NavBar = () => {
                         </li>
                         <li className='nav-item'>
                             <ScrollLink
-                                activeClass="active"
+                                activeClass='active'
                                 to='project'
                                 spy={true}
                                 smooth={true}
@@ -75,7 +75,7 @@ const NavBar = () => {
                         </li>
                         <li className='nav-item'>
                             <ScrollLink
-                                activeClass="active"
+                                activeClass='active'
                                 to='contact'
                                 spy={true}
                                 smooth={true}
@@ -96,7 +96,7 @@ const NavBar = () => {
                 <ul>
                     <li className='nav-item'>
                         <ScrollLink
-                            activeClass="active"
+                            activeClass='active'
                             to='home'
                             spy={true}
                             smooth={true}
@@ -109,7 +109,7 @@ const NavBar = () => {
                     </li>
                     <li className='nav-item'>
                         <ScrollLink
-                            activeClass="active"
+                            activeClass='active'
                             to='aboutme'
                             spy={true}
                             smooth={true}
@@ -122,7 +122,7 @@ const NavBar = () => {
                     </li>
                     <li className='nav-item'>
                         <ScrollLink
-                            activeClass="active"
+                            activeClass='active'
                             to='stack'
                             spy={true}
                             smooth={true}
@@ -135,7 +135,7 @@ const NavBar = () => {
                     </li>
                     <li className='nav-item'>
                         <ScrollLink
-                            activeClass="active"
+                            activeClass='active'
                             to='project'
                             spy={true}
                             smooth={true}
@@ -148,7 +148,7 @@ const NavBar = () => {
                     </li>
                     <li className='nav-item'>
                         <ScrollLink
-                            activeClass="active"
+                            activeClass='active'
                             to='contact'
                             spy={true}
                             smooth={true}
@@ -162,7 +162,7 @@ const NavBar = () => {
                 </ul>
             </nav>
         </div >
-    )
+    );
 };
 
 export default NavBar;
