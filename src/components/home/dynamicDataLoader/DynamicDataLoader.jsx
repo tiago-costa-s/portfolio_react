@@ -20,9 +20,9 @@ const DynamicDataLoader = ({ title, newUrl }) => {
                 {data && data.map((academic) => (
                     <li className={styles.itens} key={academic.id}>
                         <div className={styles.header}>
-                            <h4 className={styles.subTitle}>
+                            <h2 className={styles.subTitle}>
                                 {academic.name}
-                            </h4>
+                            </h2>
                             <p className={styles.modality}>
                                 {academic.modality}
                             </p>

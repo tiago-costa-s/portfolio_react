@@ -12,9 +12,9 @@
     ],
     "professional_experience": [
         {
-            "id": "1",
+            "id": "1",          
             "name": "Analista de Sistemas",
-            "modality": "Híbrido",
+            "modality": "Híbrido",          
             "institution": "ALS Tribology Brasil",
             "city": "Contagem",
             "startDate": "dez/2023",
@@ -22,6 +22,7 @@
         },
         {
             "id": "2",
+         
             "name": "Desenvolvedor Front End",
             "modality": "Voluntário",
             "institution": "Pipoca Ágil",
@@ -30,22 +31,70 @@
             "endDate": "nov/2023"
         },
         {
-            "id": "3",
+            "id": "3",         
             "name": "Analista de Suporte (Estágio)",
             "modality": "Home Office",
             "institution": "CRM Educacional",
             "city": "Belo Horizonte",
             "startDate": "mar/2021",
             "endDate": "mar/2022"
+        }
+    ],
+    "stacks": [
+        {
+            "id": "1",
+            "name": "reactjs",
+            "iconStack": "/src/assets/icons/stackPng/reactjs.png"
+        },
+        {
+            "id": "2",
+            "name": "javascript",
+            "iconStack": "/src/assets/icons/stackPng/javascript.png"
+        },
+        {
+            "id": "3",
+            "name": "html",
+            "iconStack": "/src/assets/icons/stackPng/html.png"
         },
         {
             "id": "4",
-            "name": "Analista de Vendas",
-            "modality": "Presencial",
-            "institution": "Tambasa",
-            "city": "Contagem",
-            "startDate": "jun/2010",
-            "endDate": "mai/2021"
+            "name": "css",
+            "iconStack": "/src/assets/icons/stackPng/css.png"
+        },
+        {
+            "id": "5",
+            "name": "bootstrap",
+            "iconStack": "/src/assets/icons/stackPng/bootstrap.png"
+        },
+        {
+            "id": "6",
+            "name": "java",
+            "iconStack": "/src/assets/icons/stackPng/java.png"
+        },
+        {
+            "id": "7",
+            "name": "git",
+            "iconStack": "/src/assets/icons/stackPng/git.png"
+        },
+        {
+            "id": "8",
+            "name": "github",
+            "iconStack": "/src/assets/icons/stackPng/github.png"
+        },
+        {
+            "id": "9",
+            "name": "vscode",
+            "iconStack": "/src/assets/icons/stackPng/vscode.png"
+        },
+        {
+            "id": "10",
+            "name": "eclipse",
+            "iconStack": "/src/assets/icons/stackPng/eclipse_ide.png"
+        },
+        {
+            "id": "11",
+            "name": "intellij",
+            "iconStack": "/src/assets/icons/stackPng/intellij_ide.png"
         }
     ],
     "profile": {

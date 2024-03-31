@@ -1,0 +1,34 @@
+.myStacks {
+    padding: 5rem 0;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: var(--blue-gray);
+    text-align: center;
+    margin-bottom: 2.375rem;
+}
+
+.subTitle {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--gray-shade);
+    margin-bottom: 6rem;
+}
+
+.iconStack {
+    width: 120px;
+    height: 120px;
+}
+
+
+.stacksContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5rem;
+
+    /* background-color: #aaa; */
+}

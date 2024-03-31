@@ -2,6 +2,7 @@ import './Home.css';
 import DynamicDataLoader from './dynamicDataLoader/DynamicDataLoader';
 import About from './about/About';
 import Presentation from './presentation/Presentation';
+import MyStacks from './mystacks/MyStacks';
 
 const Home = () => {
 
@@ -17,6 +18,7 @@ const Home = () => {
                 title='Experiencia Profissional'
                 newUrl='http://localhost:3000/professional_experience'
             />
+            <MyStacks />
         </div>
     )
 
