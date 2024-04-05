@@ -2,7 +2,7 @@ import styles from './DynamicDataLoader.module.css';
 import { SlLocationPin } from 'react-icons/sl';
 import { HiOutlineBuildingOffice } from 'react-icons/hi2';
 import { IoCalendarOutline } from 'react-icons/io5';
-import { useFetch } from '../../../hooks/useFatch';
+import { useFetch } from '../../../hooks/useFetch';
 
 const DynamicDataLoader = ({ title, newUrl }) => {
 

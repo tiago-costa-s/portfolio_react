@@ -12,9 +12,9 @@
     ],
     "professional_experience": [
         {
-            "id": "1",          
+            "id": "1",
             "name": "Analista de Sistemas",
-            "modality": "Híbrido",          
+            "modality": "Híbrido",
             "institution": "ALS Tribology Brasil",
             "city": "Contagem",
             "startDate": "dez/2023",
@@ -22,7 +22,6 @@
         },
         {
             "id": "2",
-         
             "name": "Desenvolvedor Front End",
             "modality": "Voluntário",
             "institution": "Pipoca Ágil",
@@ -31,7 +30,7 @@
             "endDate": "nov/2023"
         },
         {
-            "id": "3",         
+            "id": "3",
             "name": "Analista de Suporte (Estágio)",
             "modality": "Home Office",
             "institution": "CRM Educacional",
@@ -95,6 +94,53 @@
             "id": "11",
             "name": "intellij",
             "iconStack": "/src/assets/icons/stackPng/intellij_ide.png"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "Paper Notes",
+            "stacks": "HTML5, CSS, Java Script",
+            "image": "https://i.postimg.cc/gjw1S80Y/2-1.png",
+            "description": "O Paper Notes: Um aplicativo web para criar notas de texto de forma simples e moderna!",
+            "linkPreview": "https://paper-notes.vercel.app/",
+            "linkRepository": "https://github.com/tiago-costa-s/paper-notes"
+        },
+        {
+            "id": 2,
+            "name": "Todo Paper",
+            "stacks": "HTML5, CSS, Java Script",
+            "image": "https://i.postimg.cc/6qQYNmQS/todolist.png",
+            "description": "O Paper Notes: Um aplicativo web para criar notas de texto de forma simples e moderna!",
+            "linkPreview": "https://todo-paper.vercel.app/",
+            "linkRepository": "https://github.com/Tiago-Costa-s/todo_paper"
+        },
+        {
+            "id": 3,
+            "name": "KM360",
+            "stacks": "HTML5, CSS, Java Script",
+            "image": "https://i.postimg.cc/dtSDxtpb/Desktop.png",
+            "description": "O To do Paper: Um aplicativo web para criar notas de texto de forma simples e moderna!",
+            "linkPreview": "https://km360.netlify.app/",
+            "linkRepository": "https://github.com/Tiago-Costa-s/km360"
+        },
+        {
+            "id": 4,
+            "name": "Calculadora IMC ",
+            "stacks": "HTML5, CSS, Java Script",
+            "image": "https://i.postimg.cc/G3PT1M7G/calc-imc-advanced-0.png",
+            "description": "A calculadora: E um programa responsavel por calcular o índice de massa corporal(IMC) de uma pessoa.",
+            "linkPreview": "https://calculadora-imc-advanced.vercel.app/",
+            "linkRepository": "https://github.com/tiago-costa-s/calculadora_imc_advanced"
+        },
+        {
+            "id": 5,
+            "name": "Law Office ",
+            "stacks": "HTML5, CSS, Java Script",
+            "image": "https://i.postimg.cc/XvJhwLdn/escritorio-advocacia-netlify-app.png",
+            "description": "O Law Office: E uma langing page de um escritorio de advocacia",
+            "linkPreview": "https://escritorio-advocacia.netlify.app/",
+            "linkRepository": "https://github.com/tiago-costa-s/Escritorio-Advocacia"
         }
     ],
     "profile": {
