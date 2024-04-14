@@ -4,8 +4,8 @@ const Logo = () => {
 
     return (
         <div className='logo'>
-            <div id='initial-logo'>tc</div>
-            <div id='name-logo'>c o s t a</div>
+            <div id='initial_logo'>tc</div>
+            <div id='name_logo'>c o s t a</div>
         </div>
     );
 

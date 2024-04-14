@@ -1,15 +1,16 @@
 import './Home.css';
 import DynamicDataLoader from './dynamicDataLoader/DynamicDataLoader';
 import About from './about/About';
-import Presentation from './presentation/Presentation';
+
 import MyStacks from './mystacks/MyStacks';
 import MyProjects from './myprojects/MyProjects';
+import Presentation from './presentation/Presentation';
 
 const Home = () => {
 
     return (
         <div className='home'>
-            <Presentation />
+           <Presentation/>
             
             <About />
 

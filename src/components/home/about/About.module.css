@@ -1,0 +1,9 @@
+.about_container {
+    width: 704px;
+    padding: 5rem 0;
+}
+
+.about_description {
+    font-size: 1.12rem;
+    color: var(--gray-shade);
+}

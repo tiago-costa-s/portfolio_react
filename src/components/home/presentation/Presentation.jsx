@@ -3,15 +3,15 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 // components
 import RouterButton from '../../buttons/routerbutton/RouterButton';
-import './Presentation.css';
+import styles from './Presentation.module.css';
 
 const Presentation = () => {
 
     return (
-        <div className='presentation'>
-            <div className='container-presentation'>
-                <div className='my-presentation'>
-                    <h1 className='title'>
+        <div className={styles.presentation}>
+            <div className={styles.container_presentation}>
+                <div className={styles.my_presentation}>
+                    <h1 className={styles.title}>
                         <span>Olá,</span>
                         <span>Meu nome e</span>
                         <span id='name'>Tiago Costa</span>
@@ -19,7 +19,7 @@ const Presentation = () => {
                         <span>Desenvolvedor</span>
                     </h1>
                 </div>
-                <div className='social-media'>
+                <div className={styles.social_media}>
                     <RouterButton text='Git Hub' icon={<FaGithub />} />
                     <RouterButton text='Linkedin' icon={<FaLinkedinIn />} />
                 </div>

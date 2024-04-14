@@ -1,4 +1,4 @@
-.router-button {
+.router_button {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,13 +12,13 @@
     transition: .7s;
 }
 
-.router-button .icon {
+.router_button .icon {
     display: flex;
     align-items: center;
     font-size: 1.5rem;
 }
 
-.router-button:hover {
+.router_button:hover {
     color: #fff;
     border: 0;
     background-color: var(--blue-gray);

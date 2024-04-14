@@ -9,16 +9,16 @@ const MyStacks = () => {
     const { data } = useFetch(url);
 
     return (
-        <div className={styles.myStacks}>
-            <div className='header-components'>
-                <h3 className='title'>Minha Stack de Tecnologia</h3>
+        <div className='my_stacks'>
+            <div className='header_components'>
+                <h3 className='title'>Minhas Stack de Tecnologia</h3>
 
-                <p className='sub-title'>Tecnologias com as quais tenho trabalhado recentemente</p>
+                <p className='sub_title'>Tecnologias com as quais tenho trabalhado recentemente</p>
             </div>
-            <div className={styles.stacksContainer}>
+            <div className={styles.stacks_container}>
                 {data && data.map((stack) => (
                     <div key={stack.id}>
-                        <img src={stack.iconStack} alt={stack.name} />
+                        <img src={stack.icon_stack} alt={stack.name} />
                     </div>
                 ))}
             </div>

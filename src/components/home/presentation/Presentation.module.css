@@ -5,28 +5,28 @@
     min-height: calc(100vh - 100px);
 }
 
-.my-presentation {
+.my_presentation {
     margin-bottom: 2.5rem;
 }
 
-.my-presentation .title {
+.title {
     font-size: 3.5rem;
     font-weight: bolder;
     color: var(--blue-gray);
 }
 
-.my-presentation .title span {
+.title span {
     display: block;
 }
 
-.my-presentation .title #name {
+.title #name {
     background: linear-gradient(to right, #13b0f5, #e70faa);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
 
-.container-presentation .social-media {
+.social_media {
     display: flex;
     gap: 2rem;
 }

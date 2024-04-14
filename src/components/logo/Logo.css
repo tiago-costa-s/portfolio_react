@@ -5,7 +5,7 @@
     border: 1px solid var(--blue-gray);
 }
 
-.logo #initial-logo {
+.logo #initial_logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@
     font-weight: bold;
 }
 
-.logo #name-logo {
+.logo #name_logo {
     width: 100%;
     display: flex;
     align-items: center;

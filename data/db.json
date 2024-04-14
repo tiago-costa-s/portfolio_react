@@ -43,57 +43,57 @@
         {
             "id": "1",
             "name": "reactjs",
-            "iconStack": "/src/assets/icons/stackPng/reactjs.png"
+            "icon_stack": "/src/assets/icons/stackPng/reactjs.png"
         },
         {
             "id": "2",
             "name": "javascript",
-            "iconStack": "/src/assets/icons/stackPng/javascript.png"
+            "icon_stack": "/src/assets/icons/stackPng/javascript.png"
         },
         {
             "id": "3",
             "name": "html",
-            "iconStack": "/src/assets/icons/stackPng/html.png"
+            "icon_stack": "/src/assets/icons/stackPng/html.png"
         },
         {
             "id": "4",
             "name": "css",
-            "iconStack": "/src/assets/icons/stackPng/css.png"
+            "icon_stack": "/src/assets/icons/stackPng/css.png"
         },
         {
             "id": "5",
             "name": "bootstrap",
-            "iconStack": "/src/assets/icons/stackPng/bootstrap.png"
+            "icon_stack": "/src/assets/icons/stackPng/bootstrap.png"
         },
         {
             "id": "6",
             "name": "java",
-            "iconStack": "/src/assets/icons/stackPng/java.png"
+            "icon_stack": "/src/assets/icons/stackPng/java.png"
         },
         {
             "id": "7",
             "name": "git",
-            "iconStack": "/src/assets/icons/stackPng/git.png"
+            "icon_stack": "/src/assets/icons/stackPng/git.png"
         },
         {
             "id": "8",
             "name": "github",
-            "iconStack": "/src/assets/icons/stackPng/github.png"
+            "icon_stack": "/src/assets/icons/stackPng/github.png"
         },
         {
             "id": "9",
             "name": "vscode",
-            "iconStack": "/src/assets/icons/stackPng/vscode.png"
+            "icon_stack": "/src/assets/icons/stackPng/vscode.png"
         },
         {
             "id": "10",
             "name": "eclipse",
-            "iconStack": "/src/assets/icons/stackPng/eclipse_ide.png"
+            "icon_stack": "/src/assets/icons/stackPng/eclipse_ide.png"
         },
         {
             "id": "11",
             "name": "intellij",
-            "iconStack": "/src/assets/icons/stackPng/intellij_ide.png"
+            "icon_stack": "/src/assets/icons/stackPng/intellij_ide.png"
         }
     ],
     "projects": [
