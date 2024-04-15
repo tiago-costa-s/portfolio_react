@@ -20,8 +20,17 @@ const Presentation = () => {
                     </h1>
                 </div>
                 <div className={styles.social_media}>
-                    <RouterButton text='Git Hub' icon={<FaGithub />} />
-                    <RouterButton text='Linkedin' icon={<FaLinkedinIn />} />
+                    <RouterButton
+                        to={'https://github.com/tiago-costa-s'}
+                        text='Git Hub'
+                        icon={<FaGithub />}
+                    />
+
+                    <RouterButton
+                        to={'https://www.linkedin.com/in/tiago-costa-s/'}                       
+                        text='Linkedin'
+                        icon={<FaLinkedinIn />}
+                    />
                 </div>
             </div>
             <img src='src/assets/perfil2.png' alt='tiago' />
