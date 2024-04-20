@@ -20,7 +20,7 @@ const MyProjects = () => {
             <div className={styles.list_projets}>
                 {data && data.map((project) => (
 
-                    <div div key={project.id} className={styles.project} style={{ backgroundImage: `url(${project.image})` }}>
+                    <div key={project.id} className={styles.project} style={{ backgroundImage: `url(${project.image})` }}>
                         <div className={styles.container_project} >
                             <p className={styles.name}>{project.name}</p>
 
