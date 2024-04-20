@@ -1,0 +1,30 @@
+.contacts_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 3rem 0; */
+    /* border-bottom: 1px solid black; */
+}
+
+.container_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 2rem;
+    color: var(--gray-shade);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links:hover{
+    border-bottom: 3px solid var(--gray-shade);
+    color: var(--blue-gray);
+}

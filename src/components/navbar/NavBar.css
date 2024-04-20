@@ -26,6 +26,12 @@
 
 .nav_item {
     cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom .200s;
+}
+
+.nav_item:hover {  
+    border-bottom: 2px solid var(--blue-gray);
 }
 
 .nav_web ul {
@@ -38,6 +44,11 @@
     font-size: 1.25rem;
     color: var(--gray-shade);
     text-transform: capitalize;
+}
+
+.nav_item:hover .link_menu {
+    font-weight: 400;
+    color: var(--blue-gray);
 }
 
 /* nav mobile */

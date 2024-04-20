@@ -37,6 +37,6 @@
     max-height: 445px;
     border-radius: 50%;
     border: 10px solid transparent;
-    background-image: linear-gradient(80deg, rgba(231, 15, 170, 1), rgba(0, 192, 253, 1));
+    background-image: linear-gradient(0deg, rgba(231, 15, 170, 1), rgba(0, 192, 253, 1));
     overflow: hidden;
 }

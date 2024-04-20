@@ -76,7 +76,7 @@ const NavBar = () => {
                         <li className='nav_item'>
                             <ScrollLink
                                 activeClass='active'
-                                to='contact'
+                                to='contacts'
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
@@ -149,7 +149,7 @@ const NavBar = () => {
                     <li className='nav_item'>
                         <ScrollLink
                             activeClass='active'
-                            to='contact'
+                            to='contacts'
                             spy={true}
                             smooth={true}
                             offset={-70}

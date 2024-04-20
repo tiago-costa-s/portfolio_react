@@ -61,5 +61,9 @@ ul {
     padding: 5rem 0;
 }
 
-
-
+/* contacts */
+.contacts {
+    text-align: center;
+    min-height: 50vh;
+    padding: 5rem 2rem;
+}

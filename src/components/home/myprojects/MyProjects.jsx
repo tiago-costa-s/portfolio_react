@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 
 import styles from './MyProjects.module.css';
-import { useFetch } from "../../../hooks/useFetch";
+import { useFetch } from '../../../hooks/useFetch';
 
 const MyProjects = () => {
     const url = 'http://localhost:3000/projects';
@@ -12,7 +12,7 @@ const MyProjects = () => {
     return (
         <div className='my_projects'>
 
-            <div className="header_components">
+            <div className='header_components'>
                 <h2 className='title'>Projetos</h2>
                 <p className='sub_title'>Coisas que construí até agora</p>
             </div>
