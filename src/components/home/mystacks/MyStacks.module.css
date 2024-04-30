@@ -5,17 +5,18 @@
     margin-bottom: 2.375rem;
 }
 
-.icon_stack {
-    width: 120px;
-    height: 120px;
-}
 
 .stacks_container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 4rem;
 
     /* background-color: #aaa; */
+}
+
+.icon_stack img {
+    min-width: 120px;
+    min-height: 120px;
 }

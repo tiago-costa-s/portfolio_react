@@ -10,7 +10,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3.5rem;
+    flex-wrap: wrap;
+    gap: 5rem;
+    width: 100%;
+    /* border: 1px solid red; */
 
 }
 
@@ -18,13 +21,13 @@
     display: flex;
     align-items: center;
     gap: .5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--gray-shade);
     cursor: pointer;
     text-decoration: none;
 }
 
-.links:hover{
-    border-bottom: 3px solid var(--gray-shade);
+.links:hover {
+    border-bottom: 2px solid var(--gray-shade);
     color: var(--blue-gray);
 }

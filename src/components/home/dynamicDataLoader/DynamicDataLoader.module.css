@@ -40,6 +40,7 @@
 .body {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-bottom: 1.25rem;
     border-bottom: 2px solid #EBEAED;
 }
@@ -76,4 +77,12 @@
 
 .date span {
     padding: 0 7px;
+}
+
+/* Mobile */
+@media(max-width: 481px) {
+
+    .modality {
+        display: none;
+    }
 }

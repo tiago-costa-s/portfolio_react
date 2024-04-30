@@ -31,26 +31,31 @@
     gap: 2rem;
 }
 
-img {
-    /* width: 100%; */
+.profile_img {
     min-width: 445px;
     max-height: 445px;
     border-radius: 50%;
     border: 10px solid transparent;
-    /* background-image: linear-gradient(-50deg, var(--magenta), var(--sky-blue)); */
+    background-image: linear-gradient(-50deg, var(--magenta), var(--sky-blue));
     overflow: hidden;
 }
 
 /* Mobile */
 @media(max-width: 481px) {
-    img {
-        display: none;
+
+    .title {
+        font-size: 3rem;
     }
+
+    .profile_img {
+        display: none;
+    }  
+
 }
 
 /* Extra small devices */
 @media(min-width: 481px) and (max-width: 767px) {
-    img {
+    .profile_img {
         min-width: 330px;
         max-height: 330px;
     }
@@ -58,9 +63,9 @@ img {
 
 /* Small tablets */
 @media(min-width: 768px) and (max-width: 992px) {
-    img {
-        min-width: 400px;
-        max-height: 400px;
+    .profile_img {
+        min-width: 350px;
+        max-height: 350px;
     }
 }
 

@@ -1,6 +1,4 @@
-.App {
-    margin: 0 auto;
+.App {   
     max-width: 1204px;
     min-height: 100vh;
-    padding: 0 .5rem;
 }

@@ -17,7 +17,7 @@ const MyStacks = () => {
             </div>
             <div className={styles.stacks_container}>
                 {data && data.map((stack) => (
-                    <div key={stack.id}>
+                    <div key={stack.id} className={styles.icon_stack}>
                         <img src={stack.icon_stack} alt={stack.name} />
                     </div>
                 ))}
