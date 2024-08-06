@@ -15,6 +15,7 @@ const Contacts = () => {
                 <div className={styles.container_icon}>
                     <Link
                         to='https://www.linkedin.com/in/tiago-costa-s/'
+                        rel='noopener'
                         target='_blank'
                         className={styles.links}
                     >
@@ -24,6 +25,7 @@ const Contacts = () => {
 
                     <Link
                         to='https://api.whatsapp.com/send/?phone=5531991932470&text=Ol%C3%A1+Tiago+!+Eu+gostaria+de+conversar+com+voc%C3%AA.&type=phone_number&app_absent=0'
+                        rel='noopener'
                         target='_blank'
                         className={styles.links}
                     >
@@ -33,6 +35,7 @@ const Contacts = () => {
 
                     <Link
                         to='mailto:tiago-costa-s@outlook.com'
+                        rel='noopener'
                         target='_blank'
                         className={styles.links}
                     >
