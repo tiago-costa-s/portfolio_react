@@ -34,7 +34,7 @@ const DynamicDataLoader = ({ title, newUrl }) => {
                                     {academic.institution}
                                 </p>
                                 <p className={styles.city}>
-                                    <HiOutlineBuildingOffice className={styles.miniIcons} />
+                                    <SlLocationPin className={styles.miniIcons} />
                                     {academic.city}
                                 </p>
                             </div>

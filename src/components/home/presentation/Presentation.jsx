@@ -14,7 +14,7 @@ const Presentation = () => {
                     <h1 className={styles.title}>
                         <span>Olá,</span>
                         <span>Meu nome e</span>
-                        <span id='name'>Tiago Costa</span>
+                        <span className={styles.name}>Tiago Costa</span>
                         <span>Eu sou</span>
                         <span>Desenvolvedor</span>
                     </h1>
@@ -27,13 +27,13 @@ const Presentation = () => {
                     />
 
                     <RouterButton
-                        to={'https://www.linkedin.com/in/tiago-costa-s/'}                       
+                        to={'https://www.linkedin.com/in/tiago-costa-s/'}
                         text='Linkedin'
                         icon={<FaLinkedinIn />}
                     />
                 </div>
             </div>
-            <img src='src/assets/perfil2.png' alt='tiago' />
+            <img className={styles.profile_img} src='src/assets/perfil2.png' alt='tiago' />
         </div>
     );
 

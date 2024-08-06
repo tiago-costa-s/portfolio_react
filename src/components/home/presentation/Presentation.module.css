@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: calc(100vh - 100px);
+    min-height: 100vh;
 }
 
 .my_presentation {
@@ -19,8 +19,8 @@
     display: block;
 }
 
-.title #name {
-    background: linear-gradient(to right, #13b0f5, #e70faa);
+.name {
+    background: linear-gradient(to right, var(--dodger-blue), var(--magenta));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -31,12 +31,43 @@
     gap: 2rem;
 }
 
-.presentation img {
-    width: 100%;
-    max-width: 445px;
+.profile_img {
+    min-width: 445px;
     max-height: 445px;
     border-radius: 50%;
     border: 10px solid transparent;
-    background-image: linear-gradient(0deg, rgba(231, 15, 170, 1), rgba(0, 192, 253, 1));
+    background-image: linear-gradient(-50deg, var(--magenta), var(--sky-blue));
     overflow: hidden;
 }
+
+/* Mobile */
+@media(max-width: 481px) {
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .profile_img {
+        display: none;
+    }  
+
+}
+
+/* Extra small devices */
+@media(min-width: 481px) and (max-width: 767px) {
+    .profile_img {
+        min-width: 330px;
+        max-height: 330px;
+    }
+}
+
+/* Small tablets */
+@media(min-width: 768px) and (max-width: 992px) {
+    .profile_img {
+        min-width: 350px;
+        max-height: 350px;
+    }
+}
+
+/* Large tablets/laptops */
+@media(min-width: 993px) and (max-width: 1199px) {}
